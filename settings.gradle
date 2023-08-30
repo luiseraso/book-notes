@@ -1,0 +1,6 @@
+rootProject.name = 'book-notes'
+include 'core-java-fundamentals'
+include 'effective-java'
+include 'hacker-rank'
+include 'interviews'
+
