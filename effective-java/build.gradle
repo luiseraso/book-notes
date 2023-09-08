@@ -1,9 +1,13 @@
 plugins {
-    id 'java'
+    id 'application'
 }
 
 group = 'com.acme'
 version = 'unspecified'
+
+application {
+    mainClass = 'com.effectivejava.Application'
+}
 
 repositories {
     mavenCentral()

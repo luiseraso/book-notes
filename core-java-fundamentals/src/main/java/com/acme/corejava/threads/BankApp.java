@@ -2,9 +2,9 @@ package com.acme.corejava.threads;
 
 public class BankApp {
 
-    public static final double MAX_AMOUNT = 100;
+    public static final double MAX_AMOUNT = 1_000;
     public static final int DELAY = 100;
-    public static final int STEPS = 1000;
+    public static final int STEPS = 100;
 
     public static void main(String[] args) {
         Bank myBank = new Bank(100, 1_000);
