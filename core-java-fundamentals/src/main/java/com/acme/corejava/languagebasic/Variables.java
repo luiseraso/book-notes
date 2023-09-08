@@ -12,7 +12,6 @@ public class Variables {
 
         b1.printStates();// cadence: 8, speed: 4, gear: 6, numGears: 10
         b2.printStates();// cadence: 9, speed:5 , gear: 7, numGears: 5
-
     }
 }
 
