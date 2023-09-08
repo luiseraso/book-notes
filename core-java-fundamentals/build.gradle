@@ -1,9 +1,13 @@
 plugins {
-    id 'java'
+    id 'application'
 }
 
 group = 'com.acme'
 version = '1.0-SNAPSHOT'
+
+application {
+    mainClass = 'com.acme.corejava.threads.BankApp'
+}
 
 repositories {
     mavenCentral()
